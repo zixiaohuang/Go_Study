@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package scene.service.v1;
+
+import "google/api/annotations.proto";
+
+option go_package = "api/scene/service/v1;v1";
+
+service Warrior {
+  rpc GetRole (GetRoleReq) returns (GetRoleReply){}
+}
+
+message GetRoleReq {
+  int64 role_id = 1;
+}
+
+message GetRoleReply {
+  message Role {
+    int64 role_id = 1;
+    float blood_val = 2;
+  }
+  repeated Role items = 1;
+}
+
