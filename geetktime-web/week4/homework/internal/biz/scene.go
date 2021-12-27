@@ -17,7 +17,7 @@ type Scene struct {
 
 type SceneRepo interface {
 	GetScene(ctx context.Context, uid int64)(*Scene, error)
-	SaveScene(ctx context.Context, c *Role) error
+	SaveScene(ctx context.Context, c *Scene) error
 	DeleteScene(ctx context.Context, uid int64) error
 }
 

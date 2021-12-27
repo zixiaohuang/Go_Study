@@ -7,7 +7,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
-	conf "homework/app/scene/service/internal/conf"
+	conf "geetktime-web/week4/homework/internal/conf"
 	"time"
 )
 
