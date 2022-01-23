@@ -1,0 +1,266 @@
+======start operate bytes size: 10======
+GET: -nan====== GET ======
+  10000 requests completed in 0.13 seconds
+  10 parallel clients
+  10 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+79.98% <= 0.1 milliseconds
+99.05% <= 0.2 milliseconds
+99.61% <= 0.3 milliseconds
+100.00% <= 0.3 milliseconds
+76335.88 requests per second
+
+
+SET: -nan====== SET ======
+  10000 requests completed in 0.12 seconds
+  10 parallel clients
+  10 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+93.21% <= 0.1 milliseconds
+99.16% <= 0.2 milliseconds
+99.57% <= 0.3 milliseconds
+99.73% <= 0.4 milliseconds
+99.85% <= 0.5 milliseconds
+99.96% <= 0.8 milliseconds
+100.00% <= 0.9 milliseconds
+81300.81 requests per second
+
+
+================end operate=================
+
+======start operate bytes size: 20======
+GET: -nan====== GET ======
+  10000 requests completed in 0.10 seconds
+  10 parallel clients
+  20 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+97.08% <= 0.1 milliseconds
+99.44% <= 0.2 milliseconds
+99.86% <= 0.3 milliseconds
+99.95% <= 0.4 milliseconds
+100.00% <= 0.4 milliseconds
+96153.84 requests per second
+
+
+SET: -nan====== SET ======
+  10000 requests completed in 0.11 seconds
+  10 parallel clients
+  20 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+95.56% <= 0.1 milliseconds
+99.07% <= 0.2 milliseconds
+99.69% <= 0.3 milliseconds
+100.00% <= 0.4 milliseconds
+94339.62 requests per second
+
+
+================end operate=================
+
+======start operate bytes size: 50======
+GET: -nan====== GET ======
+  10000 requests completed in 0.14 seconds
+  10 parallel clients
+  50 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+91.75% <= 0.1 milliseconds
+99.15% <= 0.2 milliseconds
+99.69% <= 0.3 milliseconds
+99.88% <= 0.4 milliseconds
+99.96% <= 0.5 milliseconds
+100.00% <= 0.5 milliseconds
+70921.98 requests per second
+
+
+SET: -nan====== SET ======
+  10000 requests completed in 0.12 seconds
+  10 parallel clients
+  50 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+95.07% <= 0.1 milliseconds
+99.24% <= 0.2 milliseconds
+99.77% <= 0.3 milliseconds
+99.89% <= 0.4 milliseconds
+99.97% <= 0.5 milliseconds
+100.00% <= 0.5 milliseconds
+80000.00 requests per second
+
+
+================end operate=================
+
+======start operate bytes size: 100======
+GET: -nan====== GET ======
+  10000 requests completed in 0.12 seconds
+  10 parallel clients
+  100 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+90.08% <= 0.1 milliseconds
+98.99% <= 0.2 milliseconds
+99.55% <= 0.3 milliseconds
+99.84% <= 0.4 milliseconds
+99.91% <= 9 milliseconds
+99.97% <= 10 milliseconds
+100.00% <= 10 milliseconds
+81967.21 requests per second
+
+
+SET: -nan====== SET ======
+  10000 requests completed in 0.11 seconds
+  10 parallel clients
+  100 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+88.74% <= 0.1 milliseconds
+99.14% <= 0.2 milliseconds
+99.54% <= 0.3 milliseconds
+99.81% <= 0.4 milliseconds
+100.00% <= 0.5 milliseconds
+90090.09 requests per second
+
+
+================end operate=================
+
+======start operate bytes size: 200======
+GET: 18000.00====== GET ======
+  10000 requests completed in 0.12 seconds
+  10 parallel clients
+  200 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+90.77% <= 0.1 milliseconds
+98.99% <= 0.2 milliseconds
+99.61% <= 0.3 milliseconds
+100.00% <= 0.3 milliseconds
+86206.90 requests per second
+
+
+SET: -nan====== SET ======
+  10000 requests completed in 0.11 seconds
+  10 parallel clients
+  200 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+96.86% <= 0.1 milliseconds
+99.30% <= 0.2 milliseconds
+99.69% <= 0.3 milliseconds
+99.85% <= 0.4 milliseconds
+99.91% <= 0.8 milliseconds
+99.97% <= 0.9 milliseconds
+100.00% <= 0.9 milliseconds
+90090.09 requests per second
+
+
+================end operate=================
+
+======start operate bytes size: 1000======
+GET: -nan====== GET ======
+  10000 requests completed in 0.10 seconds
+  10 parallel clients
+  1000 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+91.97% <= 0.1 milliseconds
+99.33% <= 0.2 milliseconds
+99.76% <= 0.3 milliseconds
+99.96% <= 0.4 milliseconds
+100.00% <= 0.4 milliseconds
+97087.38 requests per second
+
+
+SET: 7000.00====== SET ======
+  10000 requests completed in 0.10 seconds
+  10 parallel clients
+  1000 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+92.83% <= 0.1 milliseconds
+98.96% <= 0.2 milliseconds
+99.66% <= 0.3 milliseconds
+99.92% <= 0.4 milliseconds
+99.95% <= 0.5 milliseconds
+100.00% <= 0.5 milliseconds
+95238.10 requests per second
+
+
+================end operate=================
+
+======start operate bytes size: 5000======
+GET: -nan====== GET ======
+  10000 requests completed in 0.11 seconds
+  10 parallel clients
+  5000 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+92.12% <= 0.1 milliseconds
+99.07% <= 0.2 milliseconds
+99.60% <= 0.3 milliseconds
+99.92% <= 0.4 milliseconds
+100.00% <= 0.4 milliseconds
+93457.95 requests per second
+
+
+SET: -nan====== SET ======
+  10000 requests completed in 0.12 seconds
+  10 parallel clients
+  5000 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+76.91% <= 0.1 milliseconds
+98.88% <= 0.2 milliseconds
+99.73% <= 0.3 milliseconds
+99.86% <= 0.4 milliseconds
+99.97% <= 0.5 milliseconds
+100.00% <= 0.5 milliseconds
+86206.90 requests per second
+
+
+================end operate=================
+
